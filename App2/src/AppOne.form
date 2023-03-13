@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="AppOne">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="6f390" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <text value="counter"/>
+        </properties>
+      </component>
+      <component id="3b2cb" class="javax.swing.JTextField" binding="resultField">
+        <constraints/>
+        <properties>
+          <preferredSize width="200" height="38"/>
+        </properties>
+      </component>
+      <component id="9ffad" class="javax.swing.JButton" binding="countButton">
+        <constraints/>
+        <properties>
+          <text value="Button"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
